@@ -1,0 +1,40 @@
+.nav{
+    display: flex;
+    background: #222222;
+    align-items: center;
+}
+
+.nav > img{
+    width: 7%;
+    padding: 2% 1% 2% 3%;
+}
+
+.nav-logo{
+    color:  #61DAFB;
+    margin-right: auto;
+    padding-top: 1%;
+    font-size: 2em;
+}
+
+.nav-title{
+    color: white;
+    font-size: 1.5em;
+    padding: 3%;
+    font-weight: 100;
+}
+
+@media only screen and (max-width: 500px) {
+    .nav > img{
+        width: 10%;
+    }
+    
+    .nav-logo{
+        padding: 1%;
+        font-size: 1.2em;
+    }
+    
+    .nav-title{
+        font-size: .8em;
+        padding: 5%;
+    }
+}
